@@ -1,22 +1,19 @@
 import styled from "styled-components/native";
 
-
 const Background = styled.View`
     flex: 1;
     background-color: #4995fd;
     justify-content: center;
     align-items: center;
 `;
+
 const ContainerCrono = styled.View`
     justify-content: center;
     align-items: center;
     position: relative;
 `;
 
-
-
 const ImgCrono = styled.Image``;
-
 
 const ButtonAction = styled.TouchableOpacity`
     width: 120px;
@@ -49,15 +46,14 @@ const TextCrono = styled.Text`
     position: absolute;
     top: 170px;
 `;
+
 const TextRecord = styled.Text`
     margin-top: 60px;
     font-size: 22px;
     font-weight: bold;
     color: #fff;
     font-style: italic;
-
 `;
-
 
 export {
     Background,
